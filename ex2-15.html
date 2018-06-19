@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>使用交集选择器设置样式</title>
+    <style>
+    /*元素选择器设置边框和下外边距样式*/
+    div{
+       border:5px solid red;
+       margin-bottom: 20px;
+    }
+    /*交集选择器设置背景颜色*/
+    div.txt{
+        background: #33FFCC;
+    }
+    /*类选择器设置字体格式*/
+    .txt{
+        font-style: italic;
+    }
+    
+    </style>
+</head>
+<body>
+    <div>元素选择器效果</div>
+    <div class="txt">交集选择器效果</div>
+    <span class="txt">类选择器效果</span>
+</body>
+</html>

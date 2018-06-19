@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>before伪元素的使用</title>
+    <style>
+    /*在div后面添加内容并设置该内容的背景颜色*/
+    div::after{
+        content: "这是使用before伪元素添加的内容，";/*设置添加的内容*/
+        background: #99F;
+    }
+    
+    </style>
+</head>
+<body>
+    <div >
+     伪元素选择器可以是任意类型的选择器
+    </div>
+</body>
+</html>

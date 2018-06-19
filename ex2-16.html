@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>使用并集选择器设置样式</title>
+    <style>
+    div{
+       border:3px solid red;
+       margin-bottom: 10px;
+    }
+    span{
+        font-size: 26px;
+    }
+    p{
+        font-style: italic;
+    }
+    /*使用并集选择器设置元素的公共样式*/
+    span,
+    .p1,
+    #d1{
+        background: #CCC;
+    }
+    
+    </style>
+</head>
+<body>
+    <div id="d1">这是DIV1</div>
+    <div>这是DIV2</div>
+    <p class="p1">这是段落1</p>
+    <span >这是一个SPAN</span>
+</body>
+</html>
